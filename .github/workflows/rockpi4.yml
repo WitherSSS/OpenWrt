@@ -10,11 +10,10 @@ name: Rockchip OpenWrt
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 18 * * *
+
 
 env:
-  SOURCE_URL: https://github.com/WitherSSS/lede
+  SOURCE_URL: https://github.com/coolsnowwolf/lede
   SOURCE_BRANCH: master
   CONFIG_FILE: configs/rockpi4.config
   EXTRA_CONFIG: configs/empty.config
